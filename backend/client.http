@@ -1,0 +1,17 @@
+@baseUrl = http://localhost:3333
+
+# @name customer
+POST {{baseUrl}}/customer
+Content-Type: application/json
+{
+  "name": "Lucas",
+  "email": "lucas@gmail.com"
+}
+
+###
+
+# @name customers
+GET {{baseUrl}}/customers
+Content-Type: application/json
+
+###
